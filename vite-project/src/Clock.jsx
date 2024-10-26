@@ -19,7 +19,7 @@ export default function Clock(props) {
   return (
     <>
       <p>
-        {props.timeZone} :
+        {props.timeZone}:
         {date.toLocaleString("en-GB", { timeZone: `${props.timeZone}` })}
       </p>
     </>
